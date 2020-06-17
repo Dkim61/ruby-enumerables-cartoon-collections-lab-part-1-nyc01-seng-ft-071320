@@ -5,11 +5,9 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  count = 1
   array.each do |name|
-    count = 1
     puts "#{count}. #{name}"
-      array.length.each do |number|
         count += 1
-      end
   end
 end
