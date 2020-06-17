@@ -8,6 +8,8 @@ def list_dwarves(array)
   array.each do |name|
     count = 1
     puts "#{count}. #{name}"
-    count += 1
+      array.length.each do |number|
+        count += 1
+      end
   end
 end
